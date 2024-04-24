@@ -1,0 +1,31 @@
+# Reference: https://github.com/repository-settings/app
+
+_extends: .github
+
+repository:
+  name: client-library
+  description: Native client libraries for integrating with mytiki.com
+  homepage: https://docs.mytiki.com/reference/client-library-overview
+  topics: mobile, web, library
+  private: false
+
+teams:
+  - name: sysadmin
+    permission: admin
+  - name: engineering
+    permission: push
+  - name: product
+    permission: triage
+
+environments:
+  - name: production
+#    reviewers:
+#      - id: 1
+#        type: 'Team'
+
+branches:
+  - name: main
+    protection:
+      required_status_checks:
+        strict: true
+        contexts: []
