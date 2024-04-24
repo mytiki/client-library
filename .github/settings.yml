@@ -16,12 +16,8 @@ teams:
     permission: push
   - name: product
     permission: triage
-
-environments:
-  - name: production
-#    reviewers:
-#      - id: 1
-#        type: 'Team'
+  - name: frontend
+    permission: push
 
 branches:
   - name: main
