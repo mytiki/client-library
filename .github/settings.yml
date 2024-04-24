@@ -16,6 +16,8 @@ teams:
     permission: push
   - name: product
     permission: triage
+  - name: frontend
+    permission: push
 
 branches:
   - name: main
