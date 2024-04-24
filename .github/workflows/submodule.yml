@@ -1,0 +1,32 @@
+name: Submodule Sync
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch: ~
+
+jobs:
+  submodule-sync:
+    name: Submodule Sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Android Sync
+        uses: mheap/submodule-sync-action@v1
+        with:
+          path: android
+          ref: main
+          pr_branch: automated-submodule-update
+          target_branch: main
+      - name: iOS Sync
+        uses: mheap/submodule-sync-action@v1
+        with:
+          path: ios
+          ref: main
+          pr_branch: automated-submodule-update
+          target_branch: main
+      - name: Capacitor Sync
+        uses: mheap/submodule-sync-action@v1
+        with:
+          path: capacitor
+          ref: main
+          pr_branch: automated-submodule-update
+          target_branch: main
