@@ -8,6 +8,9 @@ repository:
   homepage: https://docs.mytiki.com/reference/client-library-overview
   topics: mobile, web, library
   private: false
+  has_projects: false
+  has_discussions: false
+  has_issues: false
 
 teams:
   - name: sysadmin
