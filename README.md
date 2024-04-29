@@ -37,3 +37,11 @@ Select your platform to get started:
 - [Capacitor](https://github.com/mytiki/client-library-capacitor)
 
 View the complete docs at [docs.mytiki.com](https://docs.mytiki.com/reference/client-library-overview)
+
+## Contributing
+Please review our [Contributor Guidelines](https://github.com/mytiki/.github/blob/main/CONTRIBUTING.md) before beginning. Utilize GitHub Issues, Discussions, and Security Advisories to provide feedback. 
+
+- [Ask a Question](https://github.com/orgs/mytiki/discussions)
+- [Report a Bug](https://github.com/mytiki/roadmap/issues/new?assignees=&labels=bug%2Crequest&projects=&template=bug.yml)
+- [Report a Vulnerability](https://github.com/mytiki/client-library/security/advisories/new)
+- [Request a Feature](https://github.com/mytiki/roadmap/issues/new?assignees=&labels=feature%2Crequest&projects=&template=feature.yml)
